@@ -1,0 +1,7 @@
+
+#librabbitmq
+
+hbamqp.c
+AMQPConnection.prg
+AMQEnvelope.prg
+AMQPConsumer.prg

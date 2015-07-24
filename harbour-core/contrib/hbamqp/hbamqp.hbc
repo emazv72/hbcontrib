@@ -1,0 +1,16 @@
+description=librabbitmq
+
+incpaths=.
+
+headers=${hb_name}.ch
+
+libpaths=../../lib/3rd
+libpaths=../../lib/${hb_plat}/${hb_comp}
+
+libs=${_HB_DYNPREF}${hb_name}${_HB_DYNSUFF}
+
+#librabbitmq
+libs=rabbitmq-1-dll
+
+libs=gbase.hbc
+libs=hbwin32.hbc

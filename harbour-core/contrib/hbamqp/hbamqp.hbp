@@ -1,0 +1,21 @@
+-hblib
+-inc
+
+-o../../lib/${hb_plat}/${hb_comp}/${hb_targetname}
+-workdir=../../obj/${hb_plat}/${hb_comp}/${hb_targetname}
+
+-w3 -es2
+
+-depkeyhead=rabbitmq:amqp.h
+-depcontrol=rabbitmq:${HB_WITH_RABBITMQ}
+-depincpath=rabbitmq:${HB_WITH_RABBITMQ}
+-depfinish=rabbitmq
+
+-instpath=inc:../../include/
+-instfile=inc:${hb_name}.ch
+
+hbamqp.hbm
+
+gbase.hbc
+hbwin32.hbc
+hbweb.hbc

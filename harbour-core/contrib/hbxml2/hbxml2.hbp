@@ -1,0 +1,19 @@
+-hblib
+-inc
+
+-o../../lib/${hb_plat}/${hb_comp}/${hb_targetname}
+-workdir=../../obj/${hb_plat}/${hb_comp}/${hb_targetname}
+
+-w3 -es2
+
+-depkeyhead=xml2:libxml/parser.h
+-depcontrol=xml2:${HB_WITH_XML2}
+-depincpath=xml2:${HB_WITH_XML2}
+-depfinish=xml2
+
+-instpath=inc:../../include/
+-instfile=inc:${hb_name}.ch
+
+#libxml2
+
+hbxml2.hbm

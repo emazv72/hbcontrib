@@ -1,0 +1,11 @@
+
+-shared
+-hbexe
+-nohblib
+
+-mt
+
+hbxml2.hbc
+
+-w3 -es2
+

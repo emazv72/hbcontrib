@@ -1,0 +1,15 @@
+#libxml2
+
+hbxml2.c
+
+XMLBase.prg
+XMLParserContext.prg
+XMLNode.prg
+XMLDoc.prg
+XMLTextReader.prg
+XMLTextWriter.prg
+XMLXPathContext.prg
+XMLXPathObject.prg
+XMLNodeSet.prg
+XMLError.prg
+

@@ -1,0 +1,17 @@
+
+-w3 -es2
+
+-depkeyhead=uriparser:uriparser/Uri.h
+-depcontrol=uriparser:${HB_WITH_URIPARSER}
+-depincpath=uriparser:${HB_WITH_URIPARSER}/uriparser
+-depfinish=uriparser
+
+-instpath=inc:../../include/
+-instfile=inc:${hb_name}.ch
+
+#liburiparser
+
+hburiparser.hbm
+hburiparser.hbc
+
+# Link con con import library  per dll

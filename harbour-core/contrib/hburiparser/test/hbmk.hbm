@@ -1,0 +1,14 @@
+-shared
+-hbexe
+-nohblib
+
+-mt
+
+-w3 -es2
+
+# Link con con import library  per dll
+
+-env:_HB_DYNSUFF=_dll
+hburiparser.hbc
+
+

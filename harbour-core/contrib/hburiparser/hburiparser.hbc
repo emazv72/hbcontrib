@@ -1,0 +1,14 @@
+description=liburiparser
+
+incpaths=.
+
+headers=${hb_name}.ch
+
+libpaths=../../bin/3rd
+libpaths=../../lib/${hb_plat}/${hb_comp}
+
+libs=${hb_name}_dll
+
+#liburiparser
+libs=liburiparser-1.dll
+

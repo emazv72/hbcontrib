@@ -2,8 +2,6 @@
 
    liburiparser wrapper API ( http://uriparser.sourceforge.net/ )
 
-   Emanuele Zavallone ( emanuele.zavallone@next-informatica.com)
-
 */
 
 #include <windows.h>
